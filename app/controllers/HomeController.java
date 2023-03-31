@@ -2,6 +2,8 @@ package controllers;
 
 import play.mvc.*;
 
+import views.html.Home.*;
+
 import views.html.*;
 
 import javax.inject.Inject;
@@ -27,10 +29,18 @@ public class HomeController extends Controller {
      */
     public Result index() {
         return ok(
-            index.render(
+        index.render(
                 "Hello world!!",
                 assetsFinder
-            ));
+        ));
+    }
+
+    public Result about() {
+        return ok("about!!");
+    }
+
+    public Result welcome(String name ,String lastName) {
+        return ok(welcome2.render(name,lastName) );
     }
 
 }
