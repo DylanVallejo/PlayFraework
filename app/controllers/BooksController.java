@@ -13,33 +13,33 @@ public class BooksController extends Controller{
         return ok( "TODO");
     }
 
-    //create a book
-//    public Result create(){
-//        return "TODO";
-//    }
-//
-//    // to save a book
-//    public Result save(){
-//        return "TODO";
-//    }
-//
-//    //edit
-//    public Result edit(Integer id){
-//        return "TODO";
-//    }
-//
-//    public Result update(){
-//        return "TODO";
-//    }
-//
-//
-//    public Result destroy(Integer id){
-//        return "TODO";
-//    }
-//
-//    //book detail
-//    public Result show(Integer id){
-//        return "TODO";
-//    }
+//    create a book
+    public Result create(){
+        return ok( "TODO");
+    }
+
+    // to save a book
+    public Result save(){
+        return ok( "TODO");
+    }
+
+    //edit
+    public Result edit(Integer id){
+        return ok( "TODO");
+    }
+
+    public Result update(){
+        return ok( "TODO");
+    }
+
+
+    public Result destroy(Integer id){
+        return ok( "TODO");
+    }
+
+    //book detail
+    public Result show(Integer id){
+        return ok( "TODO");
+    }
 
 }
