@@ -1,9 +1,0 @@
-2023-04-01 23:19:09,556 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-15 - ApplicationTimer demo: Starting application at 2023-04-02T04:19:09.555Z
-2023-04-01 23:19:09,580 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-15 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-    filters.ExampleFilter
-
-2023-04-01 23:19:09,714 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-15 - Application started (Dev) (no global state)
