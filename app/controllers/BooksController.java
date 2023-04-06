@@ -42,7 +42,9 @@ public class BooksController extends Controller{
 
     //edit
     public Result edit(Integer id){
-        return ok( "TODO");
+        Book book = Book.findById(id);
+        Form<Book> bookForm = formFactory.form(Book.class);
+        return ok(edit.render(bookForm));
     }
 
     public Result update(){
